@@ -1,0 +1,104 @@
+.n-wrapper {
+  background-color: var(--deep-slate);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.n-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.n-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--white);
+}
+
+.n-left span:hover {
+  background-color: var(--btn-hover);
+}
+
+.n-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.n-list ul {
+  display: flex;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.n-list li a {
+  list-style-type: none;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  color: white;
+}
+
+.n-list li a:hover {
+  color: var(--btn-hover);
+}
+
+.n-btn {
+  background-color: var(--btn-dark);
+  color: var(--white);
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.n-btn a {
+  color: white;
+  text-decoration: none;
+}
+.n-btn:hover {
+  background-color: var(--btn-hover);
+}
+
+@media screen and (max-width: 768px) {
+  .n-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .n-right {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .n-list ul {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.75rem;
+  }
+
+  .n-list li {
+    font-size: 1.1rem;
+  }
+
+  .n-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
