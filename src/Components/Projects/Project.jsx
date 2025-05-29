@@ -4,14 +4,14 @@ import './Project.css';
 const Projects = () => {
   const projectData = [
     {
-      title: "Random Quotes",
-      description: "A app that displays randomly generated quotes.",
-      link: "https://jgauri24.github.io/RandomQuotes"
+      title: "Github-user-finder",
+      description: "A simple web app to search and view GitHub user profiles using the GitHub REST API.",
+      link: "https://jgauri24.github.io/github-user-finder/"
     },
     {
       title: "Portfolio Website",
       description: "My personal portfolio showcasing skills and projects.",
-      link: "https://yourportfolio.com"
+      link: "https://portfolio-jgauri24s-projects.vercel.app/"
     },
     {
       title: "Earth",
