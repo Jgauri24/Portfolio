@@ -20,8 +20,16 @@ const Projects = () => {
     }
   ,{
     title: "SimonSays",
-    description: '"Simon Says" is a classic memory game where players must recall and replicate a sequence of colors',
+    description: 'Simon Says" is a classic memory game where players must recall and replicate a sequence of colors',
     link: "https://jgauri24.github.io/simonsays/"
+  },{
+    title: "WordGuess",
+    description: 'A guessing game built with JavaScript, featuring hints, score tracking, and interactive letter buttons.',
+    link: "https://jgauri24.github.io/word_guess/"
+  },{
+    title: "ExpenseTracker",
+    description: 'Track income, expenses, balance, with history.',
+    link: "https://jgauri24.github.io/expense_tracker/"
   }
 ]
   return (
